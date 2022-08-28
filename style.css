@@ -1,6 +1,20 @@
 body{
     background-color: black;
+    margin: 20px;
+    padding: 20px;
 }
 .nav-item a{
     color: white;
+}
+.footer_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.list_title, .list {
+    color: white;
+}
+.list_title{
+    font-weight: bold;
 }
