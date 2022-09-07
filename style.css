@@ -1,111 +1,114 @@
-body{
-    background-color: #1F2937;
-    font-family: 'Poppins', sans-serif;
-    height: 100%;
-    margin:0;
-    padding:0;
+body {
+  background-color: #1f2937;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-header{
-    position: relative;
-    padding: 20px;
-    margin:20px;
+header {
+  position: relative;
+  padding: 20px;
+  margin: 20px;
 }
-header .navbar-brand{
-    padding-top: 1.313rem;
-    padding-bottom: 1.313rem;
-    margin-left: 30px;
+header .navbar-brand {
+  padding-top: 1.313rem;
+  padding-bottom: 1.313rem;
+  margin-left: 30px;
 }
-.nav-item a{
-    color: #e5e7eb;
-    font-size: 18px;
+.nav-item a {
+  color: #e5e7eb;
+  font-size: 18px;
 }
-.footer_menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin: 30px;
+.footer_menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 30px;
 }
-.list_title, .list {
-    color: #e5e7eb;
+.list_title,
+.list {
+  color: #e5e7eb;
 }
-.list_title{
-    font-weight: bold;
+.list_title {
+  font-weight: bold;
 }
-#myCarousel{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../odin-landing-page/landing-page-images/Young-musician.png");
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+#myCarousel {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/landing-page-images/Young-musician.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-.banner-content{
-    color: #f9faf8;
-    font-size: 24px;
-    padding: 100px;
-    margin-left: 50%;
+.banner-content {
+  color: #f9faf8;
+  font-size: 24px;
+  padding: 100px;
+  margin-left: 50%;
 }
-.carousel{
-    position: absolute;
+.carousel {
+  position: absolute;
 }
-.row{
-    padding-top: 50px;
-    background-color: #f9faf8;
-    padding-left: 10%;
+.row {
+  padding-top: 50px;
+  background-color: #f9faf8;
+  padding-left: 10%;
 }
-h2, p{
-    color: #1F2937;
+h2,
+p {
+  color: #1f2937;
 }
-.quote_container{
-    display: flex;
-    flex-direction: row;
-    background-color:white;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    padding: 50px;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 55px;
-    line-height: 82px;
+.quote_container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 82px;
 }
 
-.quote_container img{
-    height: 500px;
+.quote_container img {
+  height: 500px;
 }
-.fw-normal{
-    padding-top: 20px;
+.fw-normal {
+  padding-top: 20px;
 }
-.col-lg-4{
-    padding-left:40px;
+.col-lg-4 {
+  padding-left: 40px;
 }
-.btn{
-    font-size:24px;
+.btn {
+  font-size: 24px;
 }
-.second-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+.second-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
-.second-container img{
-    height: 500px;
+.second-container img {
+  height: 500px;
 }
 
 @media only screen and (max-width: 900px) {
-    .banner-content{
-        margin-left: 30%;
-    }
-    .second-container{
-        display:flex;
-        flex-direction: column;
-    }
-    .quote_container{
-        display: flex;
-        flex-direction: column;
-        background-color: white;
-    }
+  .banner-content {
+    margin-left: 30%;
+  }
+  .second-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .quote_container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
 }
